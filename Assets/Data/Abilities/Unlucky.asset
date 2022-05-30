@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b75b77705334e6e881c136e8e96671e, type: 3}
+  m_Name: Unlucky
+  m_EditorClassIdentifier: 
+  name: Pech
+  desc: ale Pech
+  sprite: {fileID: 21300000, guid: f4ecbe0e01be4cd498bf2b2e7ec12349, type: 3}
+  range: 5
+  targetStrategy: {fileID: 11400000, guid: 1fe2a4605ff69a44dab4d961019d363d, type: 2}
+  filterStrategies:
+  - {fileID: 11400000, guid: 4a1673ceff792cd4c83c560ffc5f13fb, type: 2}
+  effectStrategies:
+  - {fileID: 11400000, guid: 53b8a97cba6d63f47aa80f66fffa38c2, type: 2}

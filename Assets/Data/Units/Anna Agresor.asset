@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70ebe51b1bf49c89ff0971de5983a89, type: 3}
+  m_Name: Anna Agresor
+  m_EditorClassIdentifier: 
+  name: Anna Agresor
+  sprite: {fileID: 21300000, guid: 6f24d759cc6388146aa15cef94decc7f, type: 3}
+  unitMaxHealth: 100
+  unitStats:
+    luck: 80
+    damage: 100
+  unitAbilties:
+  - {fileID: 11400000, guid: b7d7bd1dcfce4804f9983d582ba85da6, type: 2}
